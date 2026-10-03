@@ -1,7 +1,8 @@
 """Fetch TCGplayer market prices for the Banette / Mega Attack Rare checklist.
 
 Writes pokemon-prices/prices.json as:
-  {"updated": "YYYY-MM-DD", "cards": {card_id: {market, reverse, pid}},
+  {"updated": "YYYY-MM-DD", "checked": ISO time of this run,
+   "cards": {card_id: {market, reverse, pid}},
    "previous": {"updated": ..., "cards": ...}}
 "previous" holds the last snapshot from an earlier day, so the page can
 show how each price moved.
@@ -52,13 +53,15 @@ def main():
     if len(cards) < len(PRODUCTS) - 4:
         sys.exit(f"only got {len(cards)} of {len(PRODUCTS)} prices; not writing")
 
-    today = datetime.datetime.now(datetime.timezone.utc).strftime("%Y-%m-%d")
+    now = datetime.datetime.now(datetime.timezone.utc)
+    today = now.strftime("%Y-%m-%d")
     old = json.loads(OUT.read_text()) if OUT.exists() else None
     if old and old.get("updated") != today:
         previous = {"updated": old["updated"], "cards": old["cards"]}
     else:
         previous = (old or {}).get("previous")
-    OUT.write_text(json.dumps({"updated": today, "cards": cards, "previous": previous}, indent=1) + "\n")
+    OUT.write_text(json.dumps({"updated": today, "checked": now.strftime("%Y-%m-%dT%H:%M:%SZ"),
+                               "cards": cards, "previous": previous}, indent=1) + "\n")
     print(f"{today}: {len(cards)} prices")
 
 
