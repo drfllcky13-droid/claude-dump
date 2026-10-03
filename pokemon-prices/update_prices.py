@@ -7,6 +7,7 @@ Writes pokemon-prices/prices.json as:
 "previous" holds the last snapshot from an earlier day, so the page can
 show how each price moved.
 """
+import concurrent.futures
 import datetime
 import json
 import pathlib
@@ -86,13 +87,23 @@ PRODUCTS.update({f"pack-{pid}": pid for pid in [
     505945, 516527, 579930, 615609, 694977, 701484, 701485,
 ]})
 URL = "https://mpapi.tcgplayer.com/v2/product/{}/pricepoints"
+HISTORY_URL = "https://infinite-api.tcgplayer.com/price/history/{}/detailed?range=annual"
+HEADERS = {
+    "User-Agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 Chrome/128 Safari/537.36",
+    "Origin": "https://www.tcgplayer.com",
+    "Referer": "https://www.tcgplayer.com/",
+}
 OUT = pathlib.Path(__file__).with_name("prices.json")
+HISTORY_OUT = pathlib.Path(__file__).with_name("history.json")
+
+
+def get_json(url):
+    with urllib.request.urlopen(urllib.request.Request(url, headers=HEADERS), timeout=30) as r:
+        return json.load(r)
 
 
 def fetch(pid):
-    req = urllib.request.Request(URL.format(pid), headers={"User-Agent": "Mozilla/5.0"})
-    with urllib.request.urlopen(req, timeout=30) as r:
-        data = json.load(r)
+    data = get_json(URL.format(pid))
     points = {p["printingType"]: p["marketPrice"] for p in data}
     listed = next((p["listedMedianPrice"] for p in data if p["printingType"] == "Normal"), None)
     normal, foil = points.get("Normal"), points.get("Foil")
@@ -103,6 +114,54 @@ def fetch(pid):
         return {"market": foil, "reverse": None, "pid": pid}
     # Rare old sealed packs often have no recent sales, only listings.
     return {"market": None, "reverse": None, "listed": listed, "pid": pid}
+
+
+def fetch_history(pid):
+    """A year of weekly market prices, oldest first: {"start", "m"[, "r"]}.
+
+    "m" is the main printing (Near Mint, or Unopened for sealed product);
+    "r" is the reverse holo when the card has one.
+    """
+    series = {}
+    for row in get_json(HISTORY_URL.format(pid)).get("result") or []:
+        if row["condition"] not in ("Near Mint", "Unopened"):
+            continue
+        buckets = sorted(row["buckets"], key=lambda b: b["bucketStartDate"])
+        prices = [round(float(b["marketPrice"]), 2) or None for b in buckets]
+        series[row["variant"]] = (buckets[0]["bucketStartDate"] if buckets else None, prices)
+    if not series:
+        return None
+    main_variant = "Normal" if "Normal" in series else next(
+        (v for v in series if v != "Reverse Holofoil"), next(iter(series)))
+    start, prices = series[main_variant]
+    out = {"start": start, "m": prices}
+    if main_variant == "Normal" and "Reverse Holofoil" in series:
+        out["r"] = series["Reverse Holofoil"][1]
+    return out
+
+
+def update_history(today):
+    """Refresh the weekly history at most once every 6 days."""
+    old = json.loads(HISTORY_OUT.read_text()) if HISTORY_OUT.exists() else {}
+    if old.get("updated") and (datetime.date.fromisoformat(today)
+                               - datetime.date.fromisoformat(old["updated"])).days < 6:
+        return
+    items = {}
+
+    def one(item):
+        cid, pid = item
+        try:
+            return cid, fetch_history(pid)
+        except Exception as e:
+            print(f"history failed {cid}: {e}", file=sys.stderr)
+            return cid, (old.get("items") or {}).get(cid)
+
+    with concurrent.futures.ThreadPoolExecutor(6) as pool:
+        for cid, h in pool.map(one, PRODUCTS.items()):
+            if h:
+                items[cid] = h
+    HISTORY_OUT.write_text(json.dumps({"updated": today, "items": items}, separators=(",", ":")) + "\n")
+    print(f"{today}: history for {len(items)} items")
 
 
 def main():
@@ -125,6 +184,7 @@ def main():
     OUT.write_text(json.dumps({"updated": today, "checked": now.strftime("%Y-%m-%dT%H:%M:%SZ"),
                                "cards": cards, "previous": previous}, indent=1) + "\n")
     print(f"{today}: {len(cards)} prices")
+    update_history(today)
 
 
 if __name__ == "__main__":
