@@ -2,7 +2,7 @@
 
 Writes pokemon-prices/prices.json as:
   {"updated": "YYYY-MM-DD", "checked": ISO time of this run,
-   "cards": {card_id: {market, reverse, pid}},
+   "cards": {card_id: {market, reverse, pid, listed?}},
    "previous": {"updated": ..., "cards": ...}}
 "previous" holds the last snapshot from an earlier day, so the page can
 show how each price moved.
@@ -59,6 +59,32 @@ PRODUCTS = {
     "me05-055": 704812, "me05-102": 704859, "me05-117": 704874,
     "30th-061": 716460, "30th-135": 716223,
 }
+# Booster packs: "pack-<product id>".
+PRODUCTS.update({f"pack-{pid}": pid for pid in [
+    138132, 138131, 138130, 138128, 138129, 138133, 138134, 138149,
+    138136, 138135, 138137, 138138, 138140, 138139, 138141, 138142,
+    138144, 138143, 138145, 138146, 138148, 138147, 138150, 138151,
+    138152, 138153, 98558, 98565, 98519, 98550, 98595, 98946,
+    98578, 98562, 98546, 98577, 98944, 98557, 98522, 98566,
+    98533, 98529, 98525, 98561, 98569, 98545, 98585, 98537,
+    98589, 98591, 98542, 98574, 98594, 98530, 98582, 98586,
+    98534, 98515, 98553, 98549, 98570, 98538, 98521, 98541,
+    98948, 98554, 98526, 98517, 98573, 98581, 91602, 91595,
+    92169, 94622, 97751, 229226, 129906, 100490, 107666, 111279,
+    187238, 168114, 130013, 129907, 129385, 129889, 133774, 155880,
+    146996, 155662, 164297, 170274, 173392, 175510, 181699, 187239,
+    185718, 191883, 198634, 199263, 206028, 210562, 216852, 218789,
+    221312, 232636, 229276, 236257, 244337, 248577, 247646, 256124,
+    265521, 274421, 277325, 283388, 453466, 476451, 493976, 501256,
+    504467, 512822, 528038, 532841, 543843, 552997, 557331, 565604,
+    593294, 610935, 624683, 630434, 630699, 644352, 654144, 672434,
+    672398, 684446, 692944, 696613, 704192, 712099, 141227, 141228,
+    190532, 190533, 190534, 141229, 190535, 190536, 190537, 189810,
+    190359, 190360, 231300, 231299, 231304, 231305, 231301, 231306,
+    231303, 231302, 232748, 232770, 282530, 280301, 482138, 488324,
+    517551, 551628, 577596, 639713, 649191, 670914, 704373, 530756,
+    505945, 516527, 579930, 615609, 694977, 701484, 701485,
+]})
 URL = "https://mpapi.tcgplayer.com/v2/product/{}/pricepoints"
 OUT = pathlib.Path(__file__).with_name("prices.json")
 
@@ -66,12 +92,17 @@ OUT = pathlib.Path(__file__).with_name("prices.json")
 def fetch(pid):
     req = urllib.request.Request(URL.format(pid), headers={"User-Agent": "Mozilla/5.0"})
     with urllib.request.urlopen(req, timeout=30) as r:
-        points = {p["printingType"]: p["marketPrice"] for p in json.load(r)}
+        data = json.load(r)
+    points = {p["printingType"]: p["marketPrice"] for p in data}
+    listed = next((p["listedMedianPrice"] for p in data if p["printingType"] == "Normal"), None)
     normal, foil = points.get("Normal"), points.get("Foil")
     # Cards with a regular print show it first; their foil is the reverse holo.
     if normal is not None:
         return {"market": normal, "reverse": foil, "pid": pid}
-    return {"market": foil, "reverse": None, "pid": pid}
+    if foil is not None:
+        return {"market": foil, "reverse": None, "pid": pid}
+    # Rare old sealed packs often have no recent sales, only listings.
+    return {"market": None, "reverse": None, "listed": listed, "pid": pid}
 
 
 def main():
