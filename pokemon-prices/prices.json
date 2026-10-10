@@ -1,6 +1,6 @@
 {
- "updated": "2026-10-09",
- "checked": "2026-10-09T18:22:21Z",
+ "updated": "2026-10-10",
+ "checked": "2026-10-10T17:22:09Z",
  "cards": {
   "ex5-1": {
    "market": 41.63,
@@ -34,17 +34,17 @@
   },
   "xy6-31": {
    "market": 0.42,
-   "reverse": 0.96,
+   "reverse": 0.97,
    "pid": 98067
   },
   "xy6-32": {
-   "market": 0.85,
+   "market": 0.87,
    "reverse": 3.61,
    "pid": 98068
   },
   "me05-034": {
-   "market": 0.18,
-   "reverse": 0.22,
+   "market": 0.15,
+   "reverse": 0.21,
    "pid": 704791
   },
   "sv09-060": {
@@ -74,7 +74,7 @@
   },
   "swsh11-073": {
    "market": 0.2,
-   "reverse": 0.24,
+   "reverse": 0.23,
    "pid": 283951
   },
   "ex12-85": {
@@ -83,12 +83,12 @@
    "pid": 83725
   },
   "sv01-088": {
-   "market": 0.8,
+   "market": 0.77,
    "reverse": null,
    "pid": 487954
   },
   "me02.5-091": {
-   "market": 0.09,
+   "market": 0.08,
    "reverse": null,
    "pid": 675903
   },
@@ -103,12 +103,12 @@
    "pid": 170915
   },
   "sv01-229": {
-   "market": 2.06,
+   "market": 2.1,
    "reverse": null,
    "pid": 490087
   },
   "me02.5-234": {
-   "market": 8.21,
+   "market": 8.62,
    "reverse": null,
    "pid": 676046
   },
@@ -118,52 +118,57 @@
    "pid": 197810
   },
   "swsh11tg-TG07": {
-   "market": 2.87,
+   "market": 2.92,
    "reverse": null,
    "pid": 284267
   },
   "mep-023": {
-   "market": 24.83,
+   "market": 24.28,
    "reverse": null,
    "pid": 659612
   },
   "mep-032": {
-   "market": 5.87,
+   "market": 6.34,
    "reverse": null,
    "pid": 685510
   },
   "mep-033": {
-   "market": 9.57,
+   "market": 9.43,
    "reverse": null,
    "pid": 685511
   },
   "me02.5-265": {
-   "market": 6.3,
+   "market": 5.77,
    "reverse": null,
    "pid": 676077
   },
   "me02.5-266": {
-   "market": 3.4,
+   "market": 3.42,
    "reverse": null,
    "pid": 676078
   },
   "me02.5-267": {
-   "market": 5.66,
+   "market": 5.21,
    "reverse": null,
    "pid": 676079
   },
   "me02.5-268": {
-   "market": 4.41,
+   "market": 4.11,
    "reverse": null,
    "pid": 676080
   },
   "me02.5-269": {
-   "market": 34.15,
+   "market": 33.99,
    "reverse": null,
    "pid": 676081
   },
+  "me02.5-270": {
+   "market": 3.24,
+   "reverse": null,
+   "pid": 676082
+  },
   "me02.5-271": {
-   "market": 25.33,
+   "market": 24.6,
    "reverse": null,
    "pid": 676083
   },
@@ -223,6 +228,11 @@
    "reverse": null,
    "pid": 85680
   },
+  "ex12-5": {
+   "market": 190.63,
+   "reverse": null,
+   "pid": 85674
+  },
   "dp1-27": {
    "market": 93.72,
    "reverse": 199.99,
@@ -247,6 +257,11 @@
    "market": 97.71,
    "reverse": 124.99,
    "pid": 85678
+  },
+  "pl4-97": {
+   "market": 752.68,
+   "reverse": null,
+   "pid": 85682
   },
   "hgss4-94": {
    "market": 560.92,
@@ -294,7 +309,7 @@
    "pid": 149061
   },
   "sm9-53": {
-   "market": 389.96,
+   "market": 384.78,
    "reverse": null,
    "pid": 183828
   },
@@ -314,7 +329,7 @@
    "pid": 183831
   },
   "sm10-70": {
-   "market": 23.3,
+   "market": 23.22,
    "reverse": 54.68,
    "pid": 189170
   },
@@ -324,27 +339,27 @@
    "pid": 222072
   },
   "swshp-SWSH241": {
-   "market": 27.22,
+   "market": 27.23,
    "reverse": null,
    "pid": 285257
   },
   "swsh1-85": {
-   "market": 7.09,
+   "market": 7.52,
    "reverse": null,
    "pid": 208393
   },
   "swsh6-57": {
-   "market": 3.83,
+   "market": 3.64,
    "reverse": null,
    "pid": 241716
   },
   "swsh8-156": {
-   "market": 10.24,
+   "market": 10.37,
    "reverse": null,
    "pid": 253370
   },
   "swsh8-157": {
-   "market": 41.52,
+   "market": 41.56,
    "reverse": null,
    "pid": 253371
   },
@@ -354,47 +369,47 @@
    "pid": 253266
   },
   "swsh11-066": {
-   "market": 3.61,
+   "market": 3.56,
    "reverse": null,
    "pid": 283941
   },
   "swsh11tg-TG06": {
-   "market": 46.05,
+   "market": 45.55,
    "reverse": null,
    "pid": 284266
   },
   "sv03.5-094": {
-   "market": 2.65,
+   "market": 2.91,
    "reverse": null,
    "pid": 516663
   },
   "sv04.5-057": {
-   "market": 0.38,
-   "reverse": 1.97,
+   "market": 0.36,
+   "reverse": 1.95,
    "pid": 534419
   },
   "sv05-104": {
-   "market": 6.47,
+   "market": 6.33,
    "reverse": null,
    "pid": 542848
   },
   "sv05-193": {
-   "market": 51.15,
+   "market": 50.34,
    "reverse": null,
    "pid": 542914
   },
   "mep-073": {
-   "market": 3.25,
+   "market": 3.54,
    "reverse": null,
    "pid": 696608
   },
   "me02-056": {
-   "market": 2.4,
+   "market": 2.37,
    "reverse": null,
    "pid": 660380
   },
   "me02.5-125": {
-   "market": 2.55,
+   "market": 2.41,
    "reverse": null,
    "pid": 675937
   },
@@ -404,22 +419,22 @@
    "pid": 676096
   },
   "me03-050": {
-   "market": 1.07,
+   "market": 0.61,
    "reverse": null,
    "pid": 684431
   },
   "30th-090": {
-   "market": 1.85,
+   "market": 1.39,
    "reverse": null,
    "pid": 716485
   },
   "30th-154": {
-   "market": 74.85,
+   "market": 74.8,
    "reverse": null,
    "pid": 717610
   },
   "30th-c-018": {
-   "market": 53.66,
+   "market": 55.4,
    "reverse": null,
    "pid": 716198
   },
@@ -444,7 +459,7 @@
    "pid": 241881
   },
   "swshp-SWSH215": {
-   "market": 1.35,
+   "market": 1.37,
    "reverse": null,
    "pid": 268444
   },
@@ -454,38 +469,38 @@
    "pid": 268445
   },
   "swshp-SWSH217": {
-   "market": 1.59,
+   "market": 1.62,
    "reverse": null,
    "pid": 268446
   },
   "swshp-SWSH218": {
-   "market": 1.77,
+   "market": 1.74,
    "reverse": null,
    "pid": 268447
   },
   "swshp-SWSH287": {
-   "market": 1.01,
+   "market": 0.96,
    "reverse": null,
    "pid": 477065
   },
   "swshp-SWSH288": {
-   "market": 2.57,
+   "market": 2.51,
    "reverse": null,
    "pid": 477066
   },
   "swshp-SWSH289": {
-   "market": 2.41,
+   "market": 2.38,
    "reverse": null,
    "pid": 477067
   },
   "swshp-SWSH290": {
-   "market": 1.0,
+   "market": 0.98,
    "reverse": null,
    "pid": 477068
   },
   "swsh1-78": {
-   "market": 0.55,
-   "reverse": 1.05,
+   "market": 0.54,
+   "reverse": 1.04,
    "pid": 208376
   },
   "swsh1-79": {
@@ -494,7 +509,7 @@
    "pid": 208377
   },
   "swsh1-80": {
-   "market": 4.49,
+   "market": 4.51,
    "reverse": null,
    "pid": 208380
   },
@@ -504,47 +519,47 @@
    "pid": 208378
   },
   "swsh1-204": {
-   "market": 26.61,
+   "market": 26.87,
    "reverse": null,
    "pid": 208381
   },
   "swsh2-73": {
-   "market": 0.23,
+   "market": 0.22,
    "reverse": 0.71,
    "pid": 213159
   },
   "swsh4.5-35": {
-   "market": 0.32,
+   "market": 0.36,
    "reverse": 0.42,
    "pid": 232468
   },
   "swsh4.5-36": {
    "market": 0.23,
-   "reverse": 0.38,
+   "reverse": 0.39,
    "pid": 232470
   },
   "swsh4.5-37": {
-   "market": 1.21,
+   "market": 1.22,
    "reverse": null,
    "pid": 232475
   },
   "swsh4.5-38": {
-   "market": 3.75,
+   "market": 3.74,
    "reverse": null,
    "pid": 232478
   },
   "swsh4.5sv-SV044": {
-   "market": 21.4,
+   "market": 21.39,
    "reverse": null,
    "pid": 232403
   },
   "swsh5-98": {
-   "market": 0.25,
+   "market": 0.26,
    "reverse": 0.41,
    "pid": 234229
   },
   "swsh8-109": {
-   "market": 0.18,
+   "market": 0.2,
    "reverse": 0.35,
    "pid": 253267
   },
@@ -554,13 +569,13 @@
    "pid": 253393
   },
   "swsh9-095": {
-   "market": 1.59,
+   "market": 1.62,
    "reverse": null,
    "pid": 263813
   },
   "swsh12-116": {
-   "market": 0.16,
-   "reverse": 0.29,
+   "market": 0.17,
+   "reverse": 0.31,
    "pid": 451770
   },
   "svp-206": {
@@ -569,12 +584,12 @@
    "pid": 635456
   },
   "sv04-121": {
-   "market": 0.22,
+   "market": 0.23,
    "reverse": null,
    "pid": 523796
   },
   "sv04-206": {
-   "market": 62.9,
+   "market": 61.7,
    "reverse": null,
    "pid": 523887
   },
@@ -584,32 +599,32 @@
    "pid": 550116
   },
   "sv10-137": {
-   "market": 0.18,
-   "reverse": 0.37,
+   "market": 0.19,
+   "reverse": 0.36,
    "pid": 632944
   },
   "me05-055": {
-   "market": 0.52,
+   "market": 0.51,
    "reverse": null,
    "pid": 704812
   },
   "me05-102": {
-   "market": 3.45,
+   "market": 3.6,
    "reverse": null,
    "pid": 704859
   },
   "me05-117": {
-   "market": 63.16,
+   "market": 62.75,
    "reverse": null,
    "pid": 704874
   },
   "30th-061": {
-   "market": 0.25,
+   "market": 0.2,
    "reverse": null,
    "pid": 716460
   },
   "30th-135": {
-   "market": 5.47,
+   "market": 5.22,
    "reverse": null,
    "pid": 716223
   },
@@ -625,7 +640,7 @@
    "pid": 138131
   },
   "pack-138130": {
-   "market": 929.53,
+   "market": 930.89,
    "reverse": null,
    "pid": 138130
   },
@@ -640,7 +655,7 @@
    "pid": 138129
   },
   "pack-138133": {
-   "market": 670.08,
+   "market": 669.58,
    "reverse": null,
    "pid": 138133
   },
@@ -650,7 +665,7 @@
    "pid": 138134
   },
   "pack-138149": {
-   "market": 436.74,
+   "market": 440.84,
    "reverse": null,
    "pid": 138149
   },
@@ -675,7 +690,7 @@
    "pid": 138138
   },
   "pack-138140": {
-   "market": 825.0,
+   "market": 816.67,
    "reverse": null,
    "pid": 138140
   },
@@ -702,7 +717,7 @@
    "pid": 138144
   },
   "pack-138143": {
-   "market": 537.5,
+   "market": 600.0,
    "reverse": null,
    "pid": 138143
   },
@@ -945,7 +960,7 @@
   "pack-98521": {
    "market": null,
    "reverse": null,
-   "listed": 399.25,
+   "listed": 396.63,
    "pid": 98521
   },
   "pack-98541": {
@@ -999,7 +1014,7 @@
    "pid": 92169
   },
   "pack-94622": {
-   "market": 225.48,
+   "market": 227.56,
    "reverse": null,
    "pid": 94622
   },
@@ -1039,7 +1054,7 @@
    "pid": 187238
   },
   "pack-168114": {
-   "market": 43.71,
+   "market": 43.82,
    "reverse": null,
    "pid": 168114
   },
@@ -1064,7 +1079,7 @@
    "pid": 129889
   },
   "pack-133774": {
-   "market": 30.84,
+   "market": 30.82,
    "reverse": null,
    "pid": 133774
   },
@@ -1104,7 +1119,7 @@
    "pid": 175510
   },
   "pack-181699": {
-   "market": 308.49,
+   "market": 312.85,
    "reverse": null,
    "pid": 181699
   },
@@ -1149,7 +1164,7 @@
    "pid": 216852
   },
   "pack-218789": {
-   "market": 19.48,
+   "market": 19.64,
    "reverse": null,
    "pid": 218789
   },
@@ -1169,27 +1184,27 @@
    "pid": 229276
   },
   "pack-236257": {
-   "market": 12.91,
+   "market": 12.62,
    "reverse": null,
    "pid": 236257
   },
   "pack-244337": {
-   "market": 44.27,
+   "market": 43.92,
    "reverse": null,
    "pid": 244337
   },
   "pack-248577": {
-   "market": 33.57,
+   "market": 33.77,
    "reverse": null,
    "pid": 248577
   },
   "pack-247646": {
-   "market": 18.4,
+   "market": 18.41,
    "reverse": null,
    "pid": 247646
   },
   "pack-256124": {
-   "market": 16.48,
+   "market": 16.44,
    "reverse": null,
    "pid": 256124
   },
@@ -1204,7 +1219,7 @@
    "pid": 274421
   },
   "pack-277325": {
-   "market": 19.12,
+   "market": 19.3,
    "reverse": null,
    "pid": 277325
   },
@@ -1214,17 +1229,17 @@
    "pid": 283388
   },
   "pack-453466": {
-   "market": 25.67,
+   "market": 25.73,
    "reverse": null,
    "pid": 453466
   },
   "pack-476451": {
-   "market": 9.0,
+   "market": 8.92,
    "reverse": null,
    "pid": 476451
   },
   "pack-493976": {
-   "market": 15.92,
+   "market": 16.16,
    "reverse": null,
    "pid": 493976
   },
@@ -1234,27 +1249,27 @@
    "pid": 501256
   },
   "pack-504467": {
-   "market": 29.0,
+   "market": 28.65,
    "reverse": null,
    "pid": 504467
   },
   "pack-512822": {
-   "market": 8.52,
+   "market": 8.5,
    "reverse": null,
    "pid": 512822
   },
   "pack-528038": {
-   "market": 24.39,
+   "market": 24.33,
    "reverse": null,
    "pid": 528038
   },
   "pack-532841": {
-   "market": 9.47,
+   "market": 9.57,
    "reverse": null,
    "pid": 532841
   },
   "pack-543843": {
-   "market": 9.2,
+   "market": 9.19,
    "reverse": null,
    "pid": 543843
   },
@@ -1264,72 +1279,72 @@
    "pid": 552997
   },
   "pack-557331": {
-   "market": 10.77,
+   "market": 10.79,
    "reverse": null,
    "pid": 557331
   },
   "pack-565604": {
-   "market": 8.82,
+   "market": 8.73,
    "reverse": null,
    "pid": 565604
   },
   "pack-593294": {
-   "market": 14.88,
+   "market": 14.58,
    "reverse": null,
    "pid": 593294
   },
   "pack-610935": {
-   "market": 6.3,
+   "market": 6.34,
    "reverse": null,
    "pid": 610935
   },
   "pack-624683": {
-   "market": 8.41,
+   "market": 8.45,
    "reverse": null,
    "pid": 624683
   },
   "pack-630434": {
-   "market": 14.51,
+   "market": 14.52,
    "reverse": null,
    "pid": 630434
   },
   "pack-630699": {
-   "market": 14.3,
+   "market": 14.36,
    "reverse": null,
    "pid": 630699
   },
   "pack-644352": {
-   "market": 8.77,
+   "market": 8.84,
    "reverse": null,
    "pid": 644352
   },
   "pack-654144": {
-   "market": 12.26,
+   "market": 12.03,
    "reverse": null,
    "pid": 654144
   },
   "pack-672434": {
-   "market": 11.99,
+   "market": 11.95,
    "reverse": null,
    "pid": 672434
   },
   "pack-672398": {
-   "market": 6.02,
+   "market": 5.95,
    "reverse": null,
    "pid": 672398
   },
   "pack-684446": {
-   "market": 5.89,
+   "market": 5.88,
    "reverse": null,
    "pid": 684446
   },
   "pack-692944": {
-   "market": 5.92,
+   "market": 5.94,
    "reverse": null,
    "pid": 692944
   },
   "pack-696613": {
-   "market": 12.64,
+   "market": 12.6,
    "reverse": null,
    "pid": 696613
   },
@@ -1379,7 +1394,7 @@
    "pid": 190535
   },
   "pack-190536": {
-   "market": 28.92,
+   "market": 28.84,
    "reverse": null,
    "pid": 190536
   },
@@ -1394,7 +1409,7 @@
    "pid": 189810
   },
   "pack-190359": {
-   "market": 32.53,
+   "market": 33.78,
    "reverse": null,
    "pid": 190359
   },
@@ -1404,7 +1419,7 @@
    "pid": 190360
   },
   "pack-231300": {
-   "market": 23.91,
+   "market": 24.31,
    "reverse": null,
    "pid": 231300
   },
@@ -1419,7 +1434,7 @@
    "pid": 231304
   },
   "pack-231305": {
-   "market": 63.52,
+   "market": 64.84,
    "reverse": null,
    "pid": 231305
   },
@@ -1429,7 +1444,7 @@
    "pid": 231301
   },
   "pack-231306": {
-   "market": 69.02,
+   "market": 69.26,
    "reverse": null,
    "pid": 231306
   },
@@ -1444,7 +1459,7 @@
    "pid": 231302
   },
   "pack-232748": {
-   "market": 8.57,
+   "market": 8.59,
    "reverse": null,
    "pid": 232748
   },
@@ -1459,7 +1474,7 @@
    "pid": 282530
   },
   "pack-280301": {
-   "market": 1.82,
+   "market": 1.88,
    "reverse": null,
    "pid": 280301
   },
@@ -1469,7 +1484,7 @@
    "pid": 482138
   },
   "pack-488324": {
-   "market": 60.29,
+   "market": 59.57,
    "reverse": null,
    "pid": 488324
   },
@@ -1484,12 +1499,12 @@
    "pid": 551628
   },
   "pack-577596": {
-   "market": 10.02,
+   "market": 10.0,
    "reverse": null,
    "pid": 577596
   },
   "pack-639713": {
-   "market": 8.63,
+   "market": 8.67,
    "reverse": null,
    "pid": 639713
   },
@@ -1499,7 +1514,7 @@
    "pid": 649191
   },
   "pack-670914": {
-   "market": 6.98,
+   "market": 7.01,
    "reverse": null,
    "pid": 670914
   },
@@ -1514,22 +1529,22 @@
    "pid": 530756
   },
   "pack-505945": {
-   "market": 2.38,
+   "market": 2.37,
    "reverse": null,
    "pid": 505945
   },
   "pack-516527": {
-   "market": 6.64,
+   "market": 6.69,
    "reverse": null,
    "pid": 516527
   },
   "pack-579930": {
-   "market": 2.14,
+   "market": 2.36,
    "reverse": null,
    "pid": 579930
   },
   "pack-615609": {
-   "market": 8.87,
+   "market": 8.83,
    "reverse": null,
    "pid": 615609
   },
@@ -1544,21 +1559,21 @@
    "pid": 701484
   },
   "pack-701485": {
-   "market": 15.4,
+   "market": 15.78,
    "reverse": null,
    "pid": 701485
   }
  },
  "previous": {
-  "updated": "2026-10-08",
+  "updated": "2026-10-09",
   "cards": {
    "ex5-1": {
-    "market": 39.45,
+    "market": 41.63,
     "reverse": null,
     "pid": 83719
    },
    "ex14-1": {
-    "market": 18.71,
+    "market": 19.31,
     "reverse": null,
     "pid": 83720
    },
@@ -1573,7 +1588,7 @@
     "pid": 83724
    },
    "pl1-19": {
-    "market": 13.83,
+    "market": 13.79,
     "reverse": 32.23,
     "pid": 83723
    },
@@ -1584,26 +1599,26 @@
    },
    "xy6-31": {
     "market": 0.42,
-    "reverse": 0.99,
+    "reverse": 0.96,
     "pid": 98067
    },
    "xy6-32": {
-    "market": 0.89,
-    "reverse": 3.6,
+    "market": 0.85,
+    "reverse": 3.61,
     "pid": 98068
    },
    "me05-034": {
-    "market": 0.19,
-    "reverse": 0.26,
+    "market": 0.18,
+    "reverse": 0.22,
     "pid": 704791
    },
    "sv09-060": {
     "market": 0.13,
-    "reverse": 0.48,
+    "reverse": 0.44,
     "pid": 623487
    },
    "swsh6-63": {
-    "market": 0.23,
+    "market": 0.24,
     "reverse": 0.26,
     "pid": 241724
    },
@@ -1613,7 +1628,7 @@
     "pid": 170886
    },
    "sm7-66": {
-    "market": 3.59,
+    "market": 3.6,
     "reverse": null,
     "pid": 170887
    },
@@ -1623,7 +1638,7 @@
     "pid": 226472
    },
    "swsh11-073": {
-    "market": 0.21,
+    "market": 0.2,
     "reverse": 0.24,
     "pid": 283951
    },
@@ -1638,12 +1653,12 @@
     "pid": 487954
    },
    "me02.5-091": {
-    "market": 0.11,
+    "market": 0.09,
     "reverse": null,
     "pid": 675903
    },
    "sm7-157": {
-    "market": 11.45,
+    "market": 11.29,
     "reverse": null,
     "pid": 170888
    },
@@ -1658,67 +1673,62 @@
     "pid": 490087
    },
    "me02.5-234": {
-    "market": 8.16,
+    "market": 8.21,
     "reverse": null,
     "pid": 676046
    },
    "sma-SV61": {
-    "market": 11.61,
+    "market": 11.2,
     "reverse": null,
     "pid": 197810
    },
    "swsh11tg-TG07": {
-    "market": 3.0,
+    "market": 2.87,
     "reverse": null,
     "pid": 284267
    },
    "mep-023": {
-    "market": 24.65,
+    "market": 24.83,
     "reverse": null,
     "pid": 659612
    },
    "mep-032": {
-    "market": 6.27,
+    "market": 5.87,
     "reverse": null,
     "pid": 685510
    },
    "mep-033": {
-    "market": 9.38,
+    "market": 9.57,
     "reverse": null,
     "pid": 685511
    },
    "me02.5-265": {
-    "market": 6.2,
+    "market": 6.3,
     "reverse": null,
     "pid": 676077
    },
    "me02.5-266": {
-    "market": 3.24,
+    "market": 3.4,
     "reverse": null,
     "pid": 676078
    },
    "me02.5-267": {
-    "market": 5.43,
+    "market": 5.66,
     "reverse": null,
     "pid": 676079
    },
    "me02.5-268": {
-    "market": 4.63,
+    "market": 4.41,
     "reverse": null,
     "pid": 676080
    },
    "me02.5-269": {
-    "market": 35.23,
+    "market": 34.15,
     "reverse": null,
     "pid": 676081
    },
-   "me02.5-270": {
-    "market": 3.42,
-    "reverse": null,
-    "pid": 676082
-   },
    "me02.5-271": {
-    "market": 27.11,
+    "market": 25.33,
     "reverse": null,
     "pid": 676083
    },
@@ -1728,7 +1738,7 @@
     "pid": 106521
    },
    "base3-20": {
-    "market": 117.72,
+    "market": 119.12,
     "reverse": null,
     "pid": 44428
    },
@@ -1778,11 +1788,6 @@
     "reverse": null,
     "pid": 85680
    },
-   "ex12-5": {
-    "market": 181.19,
-    "reverse": null,
-    "pid": 85674
-   },
    "dp1-27": {
     "market": 93.72,
     "reverse": 199.99,
@@ -1799,19 +1804,14 @@
     "pid": 85681
    },
    "pl4-16": {
-    "market": 44.39,
-    "reverse": 225.8,
+    "market": 44.35,
+    "reverse": 221.77,
     "pid": 85677
    },
    "pl4-17": {
-    "market": 96.4,
+    "market": 97.71,
     "reverse": 124.99,
     "pid": 85678
-   },
-   "pl4-97": {
-    "market": 680.45,
-    "reverse": null,
-    "pid": 85682
    },
    "hgss4-94": {
     "market": 560.92,
@@ -1824,7 +1824,7 @@
     "pid": 125253
    },
    "xy4-34": {
-    "market": 78.33,
+    "market": 78.17,
     "reverse": null,
     "pid": 94167
    },
@@ -1844,7 +1844,7 @@
     "pid": 94688
    },
    "xy8-60": {
-    "market": 45.59,
+    "market": 45.93,
     "reverse": null,
     "pid": 107179
    },
@@ -1879,7 +1879,7 @@
     "pid": 183831
    },
    "sm10-70": {
-    "market": 23.27,
+    "market": 23.3,
     "reverse": 54.68,
     "pid": 189170
    },
@@ -1894,72 +1894,72 @@
     "pid": 285257
    },
    "swsh1-85": {
-    "market": 7.03,
+    "market": 7.09,
     "reverse": null,
     "pid": 208393
    },
    "swsh6-57": {
-    "market": 3.71,
+    "market": 3.83,
     "reverse": null,
     "pid": 241716
    },
    "swsh8-156": {
-    "market": 10.19,
+    "market": 10.24,
     "reverse": null,
     "pid": 253370
    },
    "swsh8-157": {
-    "market": 41.51,
+    "market": 41.52,
     "reverse": null,
     "pid": 253371
    },
    "swsh8-271": {
-    "market": 1031.27,
+    "market": 1034.15,
     "reverse": null,
     "pid": 253266
    },
    "swsh11-066": {
-    "market": 3.62,
+    "market": 3.61,
     "reverse": null,
     "pid": 283941
    },
    "swsh11tg-TG06": {
-    "market": 46.38,
+    "market": 46.05,
     "reverse": null,
     "pid": 284266
    },
    "sv03.5-094": {
-    "market": 2.43,
+    "market": 2.65,
     "reverse": null,
     "pid": 516663
    },
    "sv04.5-057": {
-    "market": 0.35,
-    "reverse": 1.91,
+    "market": 0.38,
+    "reverse": 1.97,
     "pid": 534419
    },
    "sv05-104": {
-    "market": 7.08,
+    "market": 6.47,
     "reverse": null,
     "pid": 542848
    },
    "sv05-193": {
-    "market": 52.13,
+    "market": 51.15,
     "reverse": null,
     "pid": 542914
    },
    "mep-073": {
-    "market": 3.29,
+    "market": 3.25,
     "reverse": null,
     "pid": 696608
    },
    "me02-056": {
-    "market": 2.3,
+    "market": 2.4,
     "reverse": null,
     "pid": 660380
    },
    "me02.5-125": {
-    "market": 2.46,
+    "market": 2.55,
     "reverse": null,
     "pid": 675937
    },
@@ -1969,22 +1969,22 @@
     "pid": 676096
    },
    "me03-050": {
-    "market": 0.47,
+    "market": 1.07,
     "reverse": null,
     "pid": 684431
    },
    "30th-090": {
-    "market": 1.59,
+    "market": 1.85,
     "reverse": null,
     "pid": 716485
    },
    "30th-154": {
-    "market": 74.52,
+    "market": 74.85,
     "reverse": null,
     "pid": 717610
    },
    "30th-c-018": {
-    "market": 54.39,
+    "market": 53.66,
     "reverse": null,
     "pid": 716198
    },
@@ -1994,7 +1994,7 @@
     "pid": 206428
    },
    "swshp-SWSH031": {
-    "market": 0.79,
+    "market": 0.7,
     "reverse": null,
     "pid": 210579
    },
@@ -2004,27 +2004,27 @@
     "pid": 223757
    },
    "swshp-SWSH116": {
-    "market": 2.37,
+    "market": 2.31,
     "reverse": null,
     "pid": 241881
    },
    "swshp-SWSH215": {
-    "market": 1.38,
+    "market": 1.35,
     "reverse": null,
     "pid": 268444
    },
    "swshp-SWSH216": {
-    "market": 1.3,
+    "market": 1.31,
     "reverse": null,
     "pid": 268445
    },
    "swshp-SWSH217": {
-    "market": 1.58,
+    "market": 1.59,
     "reverse": null,
     "pid": 268446
    },
    "swshp-SWSH218": {
-    "market": 1.74,
+    "market": 1.77,
     "reverse": null,
     "pid": 268447
    },
@@ -2034,17 +2034,17 @@
     "pid": 477065
    },
    "swshp-SWSH288": {
-    "market": 2.61,
+    "market": 2.57,
     "reverse": null,
     "pid": 477066
    },
    "swshp-SWSH289": {
-    "market": 2.49,
+    "market": 2.41,
     "reverse": null,
     "pid": 477067
    },
    "swshp-SWSH290": {
-    "market": 1.02,
+    "market": 1.0,
     "reverse": null,
     "pid": 477068
    },
@@ -2054,7 +2054,7 @@
     "pid": 208376
    },
    "swsh1-79": {
-    "market": 1.11,
+    "market": 1.09,
     "reverse": null,
     "pid": 208377
    },
@@ -2064,12 +2064,12 @@
     "pid": 208380
    },
    "swsh1-190": {
-    "market": 13.95,
+    "market": 13.88,
     "reverse": null,
     "pid": 208378
    },
    "swsh1-204": {
-    "market": 26.59,
+    "market": 26.61,
     "reverse": null,
     "pid": 208381
    },
@@ -2079,13 +2079,13 @@
     "pid": 213159
    },
    "swsh4.5-35": {
-    "market": 0.24,
-    "reverse": 0.41,
+    "market": 0.32,
+    "reverse": 0.42,
     "pid": 232468
    },
    "swsh4.5-36": {
     "market": 0.23,
-    "reverse": 0.34,
+    "reverse": 0.38,
     "pid": 232470
    },
    "swsh4.5-37": {
@@ -2094,27 +2094,27 @@
     "pid": 232475
    },
    "swsh4.5-38": {
-    "market": 3.73,
+    "market": 3.75,
     "reverse": null,
     "pid": 232478
    },
    "swsh4.5sv-SV044": {
-    "market": 21.36,
+    "market": 21.4,
     "reverse": null,
     "pid": 232403
    },
    "swsh5-98": {
-    "market": 0.2,
-    "reverse": 0.4,
+    "market": 0.25,
+    "reverse": 0.41,
     "pid": 234229
    },
    "swsh8-109": {
-    "market": 0.19,
+    "market": 0.18,
     "reverse": 0.35,
     "pid": 253267
    },
    "swsh8-179": {
-    "market": 0.19,
+    "market": 0.2,
     "reverse": 0.33,
     "pid": 253393
    },
@@ -2129,52 +2129,52 @@
     "pid": 451770
    },
    "svp-206": {
-    "market": 53.51,
+    "market": 53.53,
     "reverse": null,
     "pid": 635456
    },
    "sv04-121": {
-    "market": 0.23,
+    "market": 0.22,
     "reverse": null,
     "pid": 523796
    },
    "sv04-206": {
-    "market": 61.77,
+    "market": 62.9,
     "reverse": null,
     "pid": 523887
    },
    "sv06-072": {
-    "market": 0.17,
-    "reverse": 0.29,
+    "market": 0.16,
+    "reverse": 0.28,
     "pid": 550116
    },
    "sv10-137": {
-    "market": 0.19,
-    "reverse": 0.38,
+    "market": 0.18,
+    "reverse": 0.37,
     "pid": 632944
    },
    "me05-055": {
-    "market": 0.61,
+    "market": 0.52,
     "reverse": null,
     "pid": 704812
    },
    "me05-102": {
-    "market": 3.56,
+    "market": 3.45,
     "reverse": null,
     "pid": 704859
    },
    "me05-117": {
-    "market": 63.99,
+    "market": 63.16,
     "reverse": null,
     "pid": 704874
    },
    "30th-061": {
-    "market": 0.22,
+    "market": 0.25,
     "reverse": null,
     "pid": 716460
    },
    "30th-135": {
-    "market": 5.43,
+    "market": 5.47,
     "reverse": null,
     "pid": 716223
    },
@@ -2263,7 +2263,7 @@
    "pack-138144": {
     "market": null,
     "reverse": null,
-    "listed": 1487.5,
+    "listed": 1500.0,
     "pid": 138144
    },
    "pack-138143": {
@@ -2381,7 +2381,7 @@
    "pack-98557": {
     "market": null,
     "reverse": null,
-    "listed": 2999.99,
+    "listed": 2300.0,
     "pid": 98557
    },
    "pack-98522": {
@@ -2534,7 +2534,7 @@
     "pid": 98526
    },
    "pack-98517": {
-    "market": 323.86,
+    "market": 329.09,
     "reverse": null,
     "pid": 98517
    },
@@ -2639,7 +2639,7 @@
     "pid": 155880
    },
    "pack-146996": {
-    "market": 18.25,
+    "market": 18.33,
     "reverse": null,
     "pid": 146996
    },
@@ -2674,12 +2674,12 @@
     "pid": 181699
    },
    "pack-187239": {
-    "market": 24.6,
+    "market": 24.61,
     "reverse": null,
     "pid": 187239
    },
    "pack-185718": {
-    "market": 68.23,
+    "market": 67.91,
     "reverse": null,
     "pid": 185718
    },
@@ -2704,12 +2704,12 @@
     "pid": 206028
    },
    "pack-210562": {
-    "market": 12.55,
+    "market": 12.64,
     "reverse": null,
     "pid": 210562
    },
    "pack-216852": {
-    "market": 9.93,
+    "market": 9.96,
     "reverse": null,
     "pid": 216852
    },
@@ -2729,32 +2729,32 @@
     "pid": 232636
    },
    "pack-229276": {
-    "market": 9.63,
+    "market": 9.59,
     "reverse": null,
     "pid": 229276
    },
    "pack-236257": {
-    "market": 12.79,
+    "market": 12.91,
     "reverse": null,
     "pid": 236257
    },
    "pack-244337": {
-    "market": 44.75,
+    "market": 44.27,
     "reverse": null,
     "pid": 244337
    },
    "pack-248577": {
-    "market": 33.63,
+    "market": 33.57,
     "reverse": null,
     "pid": 248577
    },
    "pack-247646": {
-    "market": 18.56,
+    "market": 18.4,
     "reverse": null,
     "pid": 247646
    },
    "pack-256124": {
-    "market": 16.57,
+    "market": 16.48,
     "reverse": null,
     "pid": 256124
    },
@@ -2764,12 +2764,12 @@
     "pid": 265521
    },
    "pack-274421": {
-    "market": 15.03,
+    "market": 15.1,
     "reverse": null,
     "pid": 274421
    },
    "pack-277325": {
-    "market": 19.14,
+    "market": 19.12,
     "reverse": null,
     "pid": 277325
    },
@@ -2784,7 +2784,7 @@
     "pid": 453466
    },
    "pack-476451": {
-    "market": 8.95,
+    "market": 9.0,
     "reverse": null,
     "pid": 476451
    },
@@ -2794,12 +2794,12 @@
     "pid": 493976
    },
    "pack-501256": {
-    "market": 12.69,
+    "market": 12.65,
     "reverse": null,
     "pid": 501256
    },
    "pack-504467": {
-    "market": 29.03,
+    "market": 29.0,
     "reverse": null,
     "pid": 504467
    },
@@ -2809,12 +2809,12 @@
     "pid": 512822
    },
    "pack-528038": {
-    "market": 24.48,
+    "market": 24.39,
     "reverse": null,
     "pid": 528038
    },
    "pack-532841": {
-    "market": 9.51,
+    "market": 9.47,
     "reverse": null,
     "pid": 532841
    },
@@ -2834,67 +2834,67 @@
     "pid": 557331
    },
    "pack-565604": {
-    "market": 8.95,
+    "market": 8.82,
     "reverse": null,
     "pid": 565604
    },
    "pack-593294": {
-    "market": 14.97,
+    "market": 14.88,
     "reverse": null,
     "pid": 593294
    },
    "pack-610935": {
-    "market": 6.37,
+    "market": 6.3,
     "reverse": null,
     "pid": 610935
    },
    "pack-624683": {
-    "market": 8.49,
+    "market": 8.41,
     "reverse": null,
     "pid": 624683
    },
    "pack-630434": {
-    "market": 14.52,
+    "market": 14.51,
     "reverse": null,
     "pid": 630434
    },
    "pack-630699": {
-    "market": 14.74,
+    "market": 14.3,
     "reverse": null,
     "pid": 630699
    },
    "pack-644352": {
-    "market": 8.69,
+    "market": 8.77,
     "reverse": null,
     "pid": 644352
    },
    "pack-654144": {
-    "market": 12.22,
+    "market": 12.26,
     "reverse": null,
     "pid": 654144
    },
    "pack-672434": {
-    "market": 12.14,
+    "market": 11.99,
     "reverse": null,
     "pid": 672434
    },
    "pack-672398": {
-    "market": 6.05,
+    "market": 6.02,
     "reverse": null,
     "pid": 672398
    },
    "pack-684446": {
-    "market": 5.91,
+    "market": 5.89,
     "reverse": null,
     "pid": 684446
    },
    "pack-692944": {
-    "market": 5.88,
+    "market": 5.92,
     "reverse": null,
     "pid": 692944
    },
    "pack-696613": {
-    "market": 13.2,
+    "market": 12.64,
     "reverse": null,
     "pid": 696613
    },
@@ -2904,12 +2904,12 @@
     "pid": 704192
    },
    "pack-712099": {
-    "market": 14.47,
+    "market": 14.28,
     "reverse": null,
     "pid": 712099
    },
    "pack-141227": {
-    "market": 108.15,
+    "market": 109.14,
     "reverse": null,
     "pid": 141227
    },
@@ -2929,7 +2929,7 @@
     "pid": 190533
    },
    "pack-190534": {
-    "market": 2290.0,
+    "market": 2645.0,
     "reverse": null,
     "pid": 190534
    },
@@ -2944,7 +2944,7 @@
     "pid": 190535
    },
    "pack-190536": {
-    "market": 28.84,
+    "market": 28.92,
     "reverse": null,
     "pid": 190536
    },
@@ -2969,7 +2969,7 @@
     "pid": 190360
    },
    "pack-231300": {
-    "market": 23.54,
+    "market": 23.91,
     "reverse": null,
     "pid": 231300
    },
@@ -3009,7 +3009,7 @@
     "pid": 231302
    },
    "pack-232748": {
-    "market": 8.55,
+    "market": 8.57,
     "reverse": null,
     "pid": 232748
    },
@@ -3019,12 +3019,12 @@
     "pid": 232770
    },
    "pack-282530": {
-    "market": 7.96,
+    "market": 8.18,
     "reverse": null,
     "pid": 282530
    },
    "pack-280301": {
-    "market": 1.59,
+    "market": 1.82,
     "reverse": null,
     "pid": 280301
    },
@@ -3074,27 +3074,27 @@
     "pid": 704373
    },
    "pack-530756": {
-    "market": 133.69,
+    "market": 134.09,
     "reverse": null,
     "pid": 530756
    },
    "pack-505945": {
-    "market": 2.39,
+    "market": 2.38,
     "reverse": null,
     "pid": 505945
    },
    "pack-516527": {
-    "market": 6.53,
+    "market": 6.64,
     "reverse": null,
     "pid": 516527
    },
    "pack-579930": {
-    "market": 2.25,
+    "market": 2.14,
     "reverse": null,
     "pid": 579930
    },
    "pack-615609": {
-    "market": 8.89,
+    "market": 8.87,
     "reverse": null,
     "pid": 615609
    },
@@ -3104,12 +3104,12 @@
     "pid": 694977
    },
    "pack-701484": {
-    "market": 16.5,
+    "market": 15.71,
     "reverse": null,
     "pid": 701484
    },
    "pack-701485": {
-    "market": 15.64,
+    "market": 15.4,
     "reverse": null,
     "pid": 701485
    }
