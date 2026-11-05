@@ -1,0 +1,116 @@
+THE OUTSKIRTS: sounds and suppressors for the guns in guns.txt
+NOTHING HERE IS DOWNLOADED YET. Everything needs Addison's OK first (and a free Freesound login to download).
+
+Links are Freesound short links: https://freesound.org/s/<number>/
+License: CC0 = public domain, no credit needed. BY = free, but it must be credited in the game's credits.
+Every pick was checked against its uploader's description: real recordings, public-domain US military footage (DVIDS),
+or sounds the uploader made themselves. Nothing ripped from another game or a commercial library.
+"synth" = db465's set, made by a physics-based sound program (not a recording, not AI). Clean CC0, good filler.
+Listen to each one before using it: some are phone recordings and will need cleanup.
+
+SUPPRESSOR RULE (from how real guns work)
+  Suppressors make a gun quieter, not silent. A bullet faster than sound still cracks.
+  .22 and .45 bullets are slower than sound, so suppressed they're the quietest guns in the game.
+  Revolvers can't take one (the gap at the cylinder leaks the blast). Neither can launchers, grenades or the flare gun.
+  Suggested suppressor kinds (generic names, rename freely): pistol can (9 mm/.45), .22 can, rifle can, shotgun can, .50 can.
+
+PISTOLS                     fire sound                                   suppressor
+  9 mm pistol (44)          427592 9mm pistol shot (CC0)                 yes, pistol can
+                            377789 9mm, 15 m in front (CC0)
+  Police pistol (40)        828786 Glock 19X, outdoors (CC0)             yes, pistol can
+                            865987 glock_fire (CC0, synth)
+  .45 heavy pistol (43)     734062 H&K USP .45, outdoors (CC0)           yes, pistol can (very quiet, .45 is subsonic)
+                            835199 .45 at a range, 20 s of shots (CC0)
+                            865988 1911_fire (CC0, synth)
+  .22 quiet pistol (45)     427594 .22 Magnum pistol (CC0)               yes, .22 can (quietest gun in the game)
+                            865989 22lr_fire (CC0, synth)
+  WK-11 Viper (2)           GAP: no real full-auto pistol found.         yes, pistol can
+                            Loop 865987 glock_fire at 1100/min.
+  Desert Eagle (1)          865992 deagle_fire (CC0, synth)              no (real ones barely take one; keep it loud)
+
+REVOLVERS (none can be suppressed)
+  Old revolver (54)         541818 revolver, 7 shots, concrete wall (CC0)
+  .38 snub (5)              346906 police .38 revolvers firing (CC0)
+  .357 long barrel (4)      683186 .357 Magnum (CC0)
+                            683175 .357 Magnum, with tail (CC0)
+  .44 Magnum R08 (3)        139979 .44 Magnum, open field (BY, credit "dcsimon")
+                            or 683175 .357 pitched down (CC0)
+
+SMGS
+  Old submachine gun (64)   258198 Thompson SMG shot, made from mixed sounds (CC0)   possible, pistol can (WWII had suppressed SMGs)
+  Compact SMG (8)           390663 SMG firing, made by uploader (CC0)    yes, pistol can
+  Police SMG (6)            201672 MP5 down the block, filmed with blanks (CC0)   yes, pistol can (built-in suppressor version is real)
+                            865993 mp5_fire (CC0, synth)
+  High-capacity SMG (7)     865993 mp5_fire looped faster (CC0, synth)   yes, pistol can
+  Suppressed SMG sound:     732250 H&K MP7 suppressed, semi + full auto, real (CC0)   <- use for all suppressed SMGs
+                            257364 SMG with suppressor, real (CC0)
+
+RIFLES
+  Semi-auto rifle (69)      386842 M1 Garand (CC0)                       no (old rifle, no threaded barrel)
+                            385785 M1 Garand shot (CC0)
+  Service rifle (73)        145206 M16, 3-round burst + single (CC0)     yes, rifle can
+  TR15 (9)                  427596 AR15 shot (CC0)                       yes, rifle can
+                            427597 AR15 from 50 yards (CC0)
+                            432366 AR15 real recording, processed (CC0)
+  AK105 (10)                402791 AK47 at indoor range, single + full auto, 83 s to cut from (CC0)   yes, rifle can
+  Carbine (16)              865985 m4carbine_fire (CC0, synth)           yes, rifle can
+                            259758 M4 short bursts (CC0)
+  Mk14 EBR (11)             GAP: no clean 7.62 battle-rifle shot.        yes, rifle can
+                            Use 145206 single shot pitched down, or 452154 (below).
+  Military rifle (12)       854507 automatic rifle burst, US Army footage (CC0)   yes, rifle can
+                            201668 M16 burst in a street, blanks (CC0)
+  Suppressed rifle sound:   GAP: no real suppressed 5.56 rifle found.
+                            Closest: 732250 MP7 suppressed (CC0) or 182815 suppressed sniper (below).
+
+SHOTGUNS
+  Sawed-off (88)            732836 double barrel, far, farm field (BY, credit "klankbeeld")   no
+  Hunting pump (86)         773873 shotgun blast, real (CC0)             no (tube magazine under the barrel)
+                            755495 Remington 870 pump rack, studio (CC0)
+  Tactical pump (19)        773873 shotgun blast (CC0)                   yes, shotgun can
+                            370344 pump action cycle (CC0)
+                            865986 shotgun_fire (CC0, synth)
+  Herrington 11-87 (17)     188499 silenced shotgun, layered (CC0)       always suppressed (built in)
+  Oryx SRM-12 (18)          569309 Saiga 12, 00 buck, raw (CC0)          yes, shotgun can
+                            865991 aa12_fire (CC0, synth)
+  Suppressed shotgun sound: 188499 (same as Herrington)
+
+SNIPERS
+  Hunting rifle (101)       452154 Sako 85 hunting rifle shots (CC0)     yes, rifle can
+                            508747 Mauser k98 bolt reload (CC0)
+  Bolt-action rifle (96)    452154 Sako 85 (CC0)                         yes, rifle can
+                            370345 Mosin Nagant bolt cycle (CC0)
+                            410442 Enfield-style rifle, built from real ones (CC0)
+  Light sniper (22)         855608 M2010 sniper shot, US Army footage (CC0)   yes, rifle can
+  Military sniper (23)      855608 (as above) / 563015 loud shot in woods (CC0)   yes, rifle can
+  Heavy sniper .50 (21)     668071 single .50 BMG, outdoor range, shell drop (CC0)   yes, .50 can
+                            865990 barrett_fire (CC0, synth)
+                            855580 pushing a .50 round into a magazine (CC0)
+  Suppressed sniper sound:  182815 suppressed XM2010 sniper, US Army footage (CC0)
+                            737570 suppressed .50 BMG, Tac-50, real (CC0)   <- for the suppressed .50
+
+MACHINE GUNS
+  MX68 light MG (24)        865994 m249_fire (CC0, synth)                possible but rare; suggest no
+  Machine gun (25)          538302 real M60 firing (CC0)                 no
+                            183656 vehicle .50 MG, US gov footage, 35 s (CC0)
+
+LAUNCHERS AND THROWN
+  Grenade launcher (26)     162402 M203 grenade launcher, US gov footage (CC0)
+  RPG (27)                  182794 rocket launch, US gov footage (CC0)
+                            725401 loading an RPG-7, full sequence (CC0)
+  Smoke grenade (29)        551429 gas grenade hiss, made by uploader (CC0)
+  Frag grenade (28)         609587 grenade explosion, synth + firecracker (CC0)
+
+TOOL
+  Flare gun (48)            675636 flare gun fires, shells hit floor, vintage film recording (CC0)
+
+DROPPED (reason)
+  619029 ".38 Police Service Revolver"  title looks lifted from a commercial SFX library
+  330634 "Desert Eagle Gunshot"         just a processed copy of another .357 sound
+  351777 "Sniper Rifle M24 SFX"         no source given
+  539141 "suppressor gunshot"           a hand clap
+  774036 "ratikka" (suppressed)         a tram, not a gun
+  ZM_* (_Linus_Sebastian), "Newgrounds" loop, "PP7 retro"   look like rips from games or other media
+
+IF FREESOUND ISN'T ENOUGH
+  Sonniss GDC bundles (sonniss.com/gameaudiogdc): free professional packs, royalty-free for commercial use, no credit needed,
+  not allowed for AI training. Past bundles included gun recordings. Big downloads (20-30 GB), so get Addison's OK first.

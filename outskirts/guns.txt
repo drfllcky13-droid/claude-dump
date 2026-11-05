@@ -1,0 +1,64 @@
+THE OUTSKIRTS: the guns in the game (kept set, his picks 10-18; tiers grey < green < blue < purple < gold)
+Name in the game, then what it is. The model number is from the kind sheets (E:\Claude\Agents\Interior\kinds).
+
+PISTOLS
+  grey    9 mm pistol (44)                 plain 9 mm service pistol
+  green   Police pistol (40)               duty pistol
+  blue    .45 heavy pistol (43)            .45 ACP pistol
+  purple  .22 quiet pistol (45)            .22 suppressed-style pistol
+  purple  WK-11 Viper (2)                  full-auto 9 mm machine pistol, 17 rounds, 1100/min
+  gold    Desert Eagle (1)                 .50 AE heavy pistol
+
+REVOLVERS
+  grey    Old revolver (54)                old service revolver
+  green   .38 snub (5)                     .38 snub-nose
+  blue    .357 long barrel (4)             .357 Magnum, long barrel
+  gold    .44 Magnum R08 (3)               .44 Magnum
+
+SMGS
+  grey    Old submachine gun (64)          old WWII-era SMG
+  green   Compact SMG (8)                  compact 9 mm SMG
+  blue    Police SMG (6)                   police 9 mm SMG (MKR9)
+  gold    High-capacity SMG (7)            high-capacity SMG
+
+RIFLES
+  grey    Semi-auto rifle (69)             old semi-auto rifle
+  green   Service rifle (73)               military service rifle
+  blue    TR15 (9)                         AR-15 style 5.56 rifle
+  blue    AK105 (10)                       AK-style rifle
+  purple  Carbine (16)                     5.56 carbine
+  purple  Mk14 EBR (11)                    7.62 battle rifle
+  gold    Military rifle (12)              military assault rifle
+
+SHOTGUNS
+  grey    Sawed-off (88)                   double-barrel sawed-off, 2 shells
+  green   Hunting pump (86)                wood-stock pump shotgun
+  blue    Tactical pump (19)               tactical pump shotgun
+  purple  Herrington 11-87 (17)            semi-auto shotgun (always suppressed in the game)
+  gold    Oryx SRM-12 (18)                 magazine-fed semi-auto shotgun
+
+SNIPERS
+  grey    Hunting rifle (101)              wood bolt-action hunting rifle
+  green   Bolt-action rifle (96)           bolt-action rifle
+  blue    Light sniper (22)                light scoped sniper rifle
+  purple  Military sniper (23)             military scoped sniper rifle
+  gold    Heavy sniper .50 (21)            .50 BMG anti-materiel rifle
+
+MACHINE GUNS
+  purple  MX68 light MG (24)               light machine gun
+  gold    Machine gun (25)                 belt-fed machine gun
+
+LAUNCHERS AND THROWN
+  purple  Grenade launcher (26)
+  gold    RPG (27)
+  grey    Smoke grenade (29)
+  green   Frag grenade (28)
+
+TOOL (not a weapon slot)
+  Flare gun (48)                           for the night phase's flares
+
+Not guns, for completeness (melee): kitchen knife, frying pan, hammer, baton, bat, crowbar, combat knife, shovel,
+machete, pickaxe, hatchet, felling axe, barbed-wire bat (crafted), fire axe, and the sledgehammer coming with B13.
+
+Rule to pass on: real guns are fine as references, but never copy another game's assets, names or wording
+(SurrounDead, Project Zomboid, Unturned). Anything bought or downloaded needs Addison's OK first.
